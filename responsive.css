@@ -1,0 +1,81 @@
+@media screen and (max-width:896px){
+  /* ヘッター */
+  .logo img {
+    margin-left: 20px;
+  }
+  .head-top {
+    width: 100%;
+  }
+  /* メイン */
+  .contents {
+    margin: 0 auto;
+    width: 95%;
+  }
+  /* フッター */
+  footer {
+    margin-top: 50px;
+  }
+  .footer-li {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:480px){
+/* ヘッター */
+  .head-top {
+    margin: 40px auto 0;
+    width: 100%;
+  }
+  .logo img {
+    width: 150px;
+    margin-left: 10px;
+  }
+  .icon img {
+    width: 15px;
+    margin: 0 5px;
+  }
+  header li {
+    font-size: 14px;
+    margin: 30px 10px 10px;
+  }
+/* メイン */
+  .contents {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .title {
+    font-size: 25px;
+    margin: 30px 0 10px 0;
+  }
+  .subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .service {
+    width: 100%;
+  }
+  .works img {
+    width: 80%;
+    margin: 30px;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+  main p {
+    margin: 0 10px;
+  }
+
+  /* フッター */
+  footer {
+    margin-top: 30px;
+  }
+  .footer-li {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  footer p {
+    flex-wrap: wrap;
+  }
+}
